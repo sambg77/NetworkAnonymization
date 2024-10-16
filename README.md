@@ -6,7 +6,7 @@ Publishing sensitive data, including social network data, poses a significant ri
 
 ## Dependencies
 
-Use the conda to install all the required packages. Then, make sure to activate the environment.
+Use conda to install all the required packages. Then, make sure to activate the environment.
 
 ```bash
 conda create --name <env> --file installed_packages.txt
