@@ -6,13 +6,15 @@ Publishing sensitive data, including social network data, poses a significant ri
 
 ## Dependencies
 
-Use the conda to install all the required packages.
+Use the conda to install all the required packages. Then, make sure to activate the environment.
 
 ```bash
 conda create --name <env> --file installed_packages.txt
+
+conda activate <env>
 ```
 
-## Usage
+## Set-up
 Update the following parameters in the main.py file:
 
 ```python
@@ -52,3 +54,11 @@ This is the number of iterations for which you want to run each configuration.
 #### sorting
 This parameter determines how we sort the edges if we are using the "Sorting" configuration. Must be one of the following {"BC", "degree", "close", "comm"}.
 
+
+## Usage
+
+Once the parameters have been set, and your conda environment is activated. Simply run the main script from the command line.
+
+```bash
+python main.py
+```
